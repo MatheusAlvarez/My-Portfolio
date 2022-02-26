@@ -1,0 +1,266 @@
+html{
+    scroll-behavior: smooth;
+ }
+
+.back-resume{
+    padding: 90px 0px;
+    background-image: url(../images/back2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    width: 100%;
+} 
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.card1{
+    display: inline-block;
+    margin: 10px;
+}
+
+.info-resume{
+    padding: 20px;
+    color: #03eeda;
+    text-align: center;
+    font-size: 25px;
+}
+
+.info-resume2{
+    padding: 20px;
+    color: #fa09be;
+    text-align: center;
+    font-size: 28px;
+}
+
+.info-resume p a{
+    color: #0e9489;
+}
+
+.info-resume p a:hover{
+    color: #08ffea;
+}
+
+.info-resume2 p a{
+    color: #c81313;
+}
+
+.info-resume2 p a:hover{
+    color: #ffffff;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*-------------------------- APRESENTAÇÂO -------------------------*/
+
+/*----------------------- FIM APRESENTAÇÂO ------------------------*/
+
+
+/*-------------------------- TECNOLOGIAS --------------------------*/
+    .tecnologias{
+        width: 95vh;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .tecnologias h2{
+        font-size: 45px;
+    }
+
+    .tecnologias h3{
+        font-size: 24px;
+        font-weight: normal;
+        padding-left: 50px;
+    }
+
+    .tecnologias p{
+        font-size: 18px;
+        font-weight: normal;
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+
+
+    @media (max-width: 767px){
+        .tecnologias{
+            width: 75vh;
+        }
+    }
+
+    @media (max-width: 667px){
+        .tecnologias{
+            width: 63vh;
+        }
+    }
+
+    @media (max-width: 581px){
+        .tecnologias{
+            width: 55vh;
+        }
+
+        .tecnologias h2{
+            font-size: 35px;
+        }
+        
+        .tecnologias h3{
+            font-size: 20px;
+            font-weight: normal;
+            padding-left: 50px;
+        }
+    }
+
+    @media (max-width: 499px){
+        .tecnologias{
+            width: 50vh;
+        }
+    }
+
+    @media (max-width: 443px){
+        .tecnologias{
+            width: 45vh;
+        }
+    }
+
+    @media (max-width: 379px){
+        .tecnologias{
+            width: 38vh;
+        }
+    }
+/*------------------------ FIM TECNOLOGIAS ------------------------*/
+
+/* ------------------------- CERTIFICADO ------------------------- */
+
+    .back-certificados{
+        background-color: #000;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .info-certificados p:hover{
+        transition: 0.4s;
+        color: #03eeda;
+        cursor: pointer;
+    }
+/* ----------------------- FIM CERTIFICADO ----------------------- */
+
+/* --------------------------- CONTATO --------------------------- */
+
+    .container{
+        max-width: 1170px;
+        margin: auto;
+    }
+
+    .footer{
+        background-color: #000000;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-col{
+        width: 25%;
+        padding: 0 15px;
+    }
+
+    .footer-col h4{
+        font-size: 18px;
+        color: #fff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #03eeda;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+
+    .footer-col p:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    .footer-col p a{
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    .footer-col p a:hover{
+        color: #03eeda;
+        padding-left: 8px;
+    }
+
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #fff;
+        transition: all 0.5s ease;
+    }
+
+    .footer-col .social-links a:hover{
+        color: #24262b;
+        background-color: #03eeda;
+    }
+
+    .no-click{
+        cursor: unset;
+    }
+
+    @media(max-width: 767px){
+        .footer-col{
+            width: 50%;
+            margin-bottom: 30px;
+        }
+    }
+
+    @media(max-width: 576px){
+        .footer-col{
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .company{
+            width: 205px;
+            height: 110px;             
+        }
+    }
+
+    @media (max-width: 375px) {
+        .company{
+            width: 170px;
+            height: 90px;             
+        }
+    }
+
+/* ------------------------- FIM CONTATO ------------------------- */
