@@ -10,7 +10,7 @@ My-Portfolio é um projeto pessoal desenvolvido com HTML, CSS e JavaScript. Esse
 - Um pouco da minha história
 - Informações pessoais sobre mim
 - Como entrei na área de Desenvolvimento
-- E muito mais
+- E muito mais...
 
 Link do projeto: https://matheusalvarez.github.io/My-Portfolio/
 
