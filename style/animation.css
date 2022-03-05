@@ -38,7 +38,7 @@ body {
 
 .menu p{
     font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Fredoka;
     margin: 5px;
 }
 
@@ -47,7 +47,7 @@ body {
     height: 40px;
     border-radius: 20px;
     cursor: pointer;
-    font-family: cursive;
+    font-family: Fredoka;
     /* background-color: #03eeda; */
 }
 
